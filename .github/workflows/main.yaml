@@ -24,4 +24,3 @@ jobs:
           dockerhub-token: ${{ secrets.DOCKER_ACCESS_TOKEN }}
           docker-registry-url: docker.io
           version: "ver-${{ github.run_id }}"
-          
