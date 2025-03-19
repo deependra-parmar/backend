@@ -23,5 +23,5 @@ jobs:
           image-name: backend-app
           dockerhub-token: ${{ secrets.DOCKER_ACCESS_TOKEN }}
           docker-registry-url: docker.io
-          version: ${{ github.run_id }}
+          version: "ver-${{ github.run_id }}"
           
